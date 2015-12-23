@@ -13,12 +13,12 @@ Installation
 
 History
 -------
-*1.0 (In development):* Provides almost playing of Chess include basic moves of each member, capturing, checkmate conditions.
+* **1.0 (In development):** Provides almost playing of Chess include basic moves of each member, capturing, checkmate conditions.
 
 Vision
 ------
-_Version 1.1_ Stalemate (draw) condition. 
-_Version 2_ Can save and load game.
-_Version 3_ Play with AI.
+* __Version 1.1__ Stalemate (draw) condition. 
+* __Version 2__ Can save and load game.
+* __Version 3__ Play with AI.
 
 
