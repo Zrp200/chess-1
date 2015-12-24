@@ -6,8 +6,11 @@ module Chess
       @value = case color.downcase
       when "w" then white_value
       when "b" then black_value
-      else raise ArgumentError
+      else ""
       end
+    end
+    def self.initialize_empty
+      new("", "", "")
     end
 
     def moves(x, y)
