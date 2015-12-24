@@ -1,3 +1,4 @@
-require_relative 'pieces/empty'
-require_relative 'pieces/pawn'
-require_relative 'pieces/rook'
+require_relative 'pieces/empty.rb'
+require_relative 'pieces/pawn.rb'
+require_relative 'pieces/rook.rb'
+require_relative 'pieces/piece.rb'
