@@ -21,6 +21,10 @@ module Chess
         test_shell = @board.grid[5][3]
         expect([test_shell.x, test_shell.y]).to eq [4, 6]
       end
+
+      it "returns a shell with specified piece value" do
+        expect(@board.grid[4][3].piece.value).to eq ""
+      end
     end
   end
 end

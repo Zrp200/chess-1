@@ -1,6 +1,6 @@
 module Chess
   class Empty
-    attr_accessor :value
+    attr_reader :value
 
     def initialize
       @value = ""
